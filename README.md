@@ -41,9 +41,9 @@ These attributes allow you to customize the entire appearance of the public bar:
 
 # Changelog
 
-    15th October 2015: v 0.3.3. New UI, better support for multisite installation and 3 new attributes for customization.
-    2d August 2015: v 0.3.2. Admin privs can access to "Section", "Page" and "Style" tabs.
-    1st August 2015: v. 0.3.1. Add "bgcolor" and "color" attributes.
-    30th July 2015: v. 0.3.0. Support for multi-site installations.
-    29th April 2015: v 0.2. Add image & category page links.
-    25th July 2014: first release.
+* 15th October 2015: v 0.3.3. New UI, better support for multisite installation and 3 new attributes for customization.
+* 2d August 2015: v 0.3.2. Admin privs can access to "Section", "Page" and "Style" tabs.
+* 1st August 2015: v. 0.3.1. Add "bgcolor" and "color" attributes.
+* 30th July 2015: v. 0.3.0. Support for multi-site installations.
+* 29th April 2015: v 0.2. Add image & category page links.
+* 25th July 2014: first release.
