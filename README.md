@@ -1,6 +1,21 @@
 # pat_public_bar
 Add a bar on your Textpattern websites to access side to side from public to admin pages.
 
+![pat_public_bar preview](https://github.com/cara-tm/pat_public_bar/raw/master/pat-public-bar-preview.png)
+
+Gives you access, for login-in users only, to:
+
+* Textpattern CMS administration interface;
+* the current _Section_ for edition;
+* the current _Page_ for edition;
+* the _Forms_ page for edition;
+* the _CSS_ page for edition;
+* the _Files_, _Links_, _Categories_ pages for edition;
+* the current _Article_, _Image_ or _Comment_, when viewed individual public pages, for edition;
+* the _Preferences_ page;
+* and a link to log out.
+
+
 ## Installation
 
 After plugin installation and activation, visit your Textpattern _Preferences_ page to verify the content of the "_This interface URL_" field (must reflects your Textpattern administration interface URL) and if needed correct it accordingly. 
