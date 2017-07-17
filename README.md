@@ -15,6 +15,8 @@ Gives you access, for login-in users only, to:
 * the _Preferences_ page;
 * and a link to log out.
 
+...depending on user privileges.
+
 
 ## Installation
 
