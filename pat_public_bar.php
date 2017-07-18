@@ -5,7 +5,7 @@
  * @type:    Admin + Public
  * @prefs:   no
  * @order:   5
- * @version: 0.3.5
+ * @version: 0.3.6
  * @license: GPLv2
 */
 
@@ -74,7 +74,7 @@ function pat_public_bar($atts) {
 		'icon' 		=> '#ccc',
 	), $atts));
 
-	if ( cs('txp_login_public') ) {
+	if ( cs('txp_login_public') && true != $prefs['pat_public_bar_disable'] ) {
 	 
 		if ($position != 'fixed' || $position != 'absolute')
 			$position = 'fixed';
@@ -191,6 +191,8 @@ function _pat_public_bar_prefs()
 	global $prefs, $textarray;
 
 	$textarray['pat_admin_url'] = 'This interface URL';
+	$textarray['pat_public_bar_disable'] = 'Temporarily disable pat_public_bar?';
+
 	$_pat_interface = hu.'textpattern';
 
 	if ( $prefs['siteurl'] != $_SERVER['HTTP_HOST'].preg_replace('#[/\\\\]$#', '', dirname(dirname($_SERVER['SCRIPT_NAME']))) )
@@ -199,7 +201,10 @@ function _pat_public_bar_prefs()
 	if (!safe_field ('name', 'txp_prefs', "name='pat_admin_url'")) 
 		safe_insert('txp_prefs', "name='pat_admin_url', val='".doSlash($_pat_interface)."', type=1, event='admin', html='text_input', position=23");
 
-	safe_repair('txp_plugin');
+	if (!safe_field ('name', 'txp_prefs', "name='pat_public_bar_disable'"))
+		safe_insert('txp_prefs', "name='pat_public_bar_disable', val='0', type=1, event='admin', html='yesnoradio', position=24");
+
+	safe_repair('txp_prefs');
 }
 
 
@@ -211,5 +216,7 @@ function _pat_public_bar_cleanup()
 {
 	
 	safe_delete('txp_prefs', "name='pat_admin_url'");
+	safe_delete('txp_prefs', "name='pat_public_bar_disable'");
+
 	safe_repair('txp_plugin');
 }
