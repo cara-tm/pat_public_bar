@@ -75,6 +75,9 @@ function pat_public_bar($atts) {
 	), $atts));
 
 	if ( cs('txp_login_public') ) {
+	 
+		if ($position != 'fixed' || $position != 'absolute')
+			$position = 'fixed';
 
 		/* List of user privs who have full bar access:
 		   1 = administrators
