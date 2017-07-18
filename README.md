@@ -22,9 +22,15 @@ Gives you access, for login-in users only, to:
 
 After plugin installation and activation, visit your Textpattern _Preferences_ page to verify the content of the "_This interface URL_" field (must reflects your Textpattern administration interface URL) and if needed correct it accordingly. 
 
-## Plugin help
+## Usage
 
-Just add a `<txp:pat_public_bar />` tag into your page templates where to show this bar on your website (public side) only available for login-in users (best place just after the opening HTML `<body>` tag).
+Into your page templates where to show this bar on your website (public side) only available for login-in users (best place just after the opening HTML `<body>` tag) just add:
+
+    <txp:pat_public_bar />
+
+...or, TXP 4.7.x onwards (with short tags support):
+
+    <pat::public_bar />
 
 Notice: due to the support of multi-site installation the bar only disappear when the client's browser is closed.
 
