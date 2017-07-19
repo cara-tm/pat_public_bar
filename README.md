@@ -13,6 +13,7 @@ Gives you access, for login-in users only, to:
 * the _Files_, _Links_, _Categories_ pages for edition;
 * the current _Article_, _Image_ or _Comment_, when viewed individual public pages, for edition;
 * the _Preferences_ page;
+* the _Log_ page;
 * and a link to log out.
 
 ...depending on user privileges.
@@ -20,7 +21,8 @@ Gives you access, for login-in users only, to:
 
 ## Installation
 
-After plugin installation and activation, visit your Textpattern _Preferences_ page to verify the content of the "_This interface URL_" field (must reflects your Textpattern administration interface URL) and if needed correct it accordingly. 
+After plugin installation and activation, visit your Textpattern _Preferences_ page to verify the content of the "_This interface URL_" field (must reflects your Textpattern administration interface URL) and if needed correct it accordingly.
+You can disable this plugin without the need to remove all its tags throughout your entire website simply by toggling to "`No`" the "_Disable temporarily pat_public_bar_" field.
 
 ## Usage
 
@@ -47,6 +49,9 @@ These attributes allow you to customize the entire appearance of the public bar:
 
 # Changelog
 
+* 18th July 2017: v 0.3.6. Add a preference radio button to disable this plugin.
+* 17th July 2017: v 0.3.5. Removes a strong tag into the "Article" link. CSS improvements.
+* v 0.3.4.
 * 15th October 2015: v 0.3.3. New UI, better support for multisite installation and 3 new attributes for customization.
 * 2d August 2015: v 0.3.2. Admin privs can access to "Section", "Page" and "Style" tabs.
 * 1st August 2015: v. 0.3.1. Add "bgcolor" and "color" attributes.
