@@ -6,6 +6,7 @@ Add a bar on your Textpattern websites to access side to side from public to adm
 Gives you access, for login-in users only, to:
 
 * Textpattern CMS administration interface;
+* A link to the TXP community Forum;
 * the current _Section_ for edition;
 * the current _Page_ for edition;
 * the _Forms_ page for edition;
@@ -49,7 +50,8 @@ These attributes allow you to customize the entire appearance of the public bar:
 
 # Changelog
 
-* 18th July 2017: v 0.3.6. Add a preference radio button to disable this plugin.
+* 24th August 2017: v 0.3.7. Adds a link to the TXP community Forum. Improvements.
+* 18th July 2017: v 0.3.6. Adds a preference radio button to disable this plugin.
 * 17th July 2017: v 0.3.5. Removes a strong tag into the "Article" link. CSS improvements.
 * v 0.3.4.
 * 15th October 2015: v 0.3.3. New UI, better support for multisite installation and 3 new attributes for customization.
