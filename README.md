@@ -1,5 +1,5 @@
 # pat_public_bar
-Add a bar on your Textpattern websites to access side to side from public to admin pages.
+Add a drop down animated bar on your Textpattern websites to access side to side from public to admin pages.
 
 ![pat_public_bar preview](https://github.com/cara-tm/pat_public_bar/raw/master/pat-public-bar-preview.png)
 
