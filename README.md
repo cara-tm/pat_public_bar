@@ -42,6 +42,7 @@ Notice: due to the support of multi-site installation the bar only disappear whe
 These attributes allow you to customize the entire appearance of the public bar:
 
 * `position` string (optional): CSS position of the bar. Set to `absolute` is better for small screens support. Default: `fixed`.
+* `js_top_adjust` string (optional - v 0.3.7 onward): adjusts the top position value in mobile context (depending of the website template, the value injected by javascript pushes the bar outside the viewport). Default `-45px` (for `top: -45px`).
 * `bgcolor` string (optional): change the background color of the bar. Default: `#23282d`.
 * `color` string (optional): change the font color into the bar. Default: `#fff`.
 * `title` string (optional): change the color of the different parts title. Default: `#84878b`.
@@ -50,6 +51,7 @@ These attributes allow you to customize the entire appearance of the public bar:
 
 # Changelog
 
+* 5th September 2017: re upload the 0.3.7 version.
 * 24th August 2017: v 0.3.7. Adds a link to the TXP community Forum. Improvements.
 * 18th July 2017: v 0.3.6. Adds a preference radio button to disable this plugin.
 * 17th July 2017: v 0.3.5. Removes a strong tag into the "Article" link. CSS improvements.
