@@ -51,7 +51,9 @@ These attributes allow you to customize the entire appearance of the public bar:
 
 # Changelog
 
-* 5th September 2017: re upload the 0.3.7 version.
+* 10th October 2017: v 0.4.0. Better support for small screens.
+* 25th September 2017: v 0.3.9. Better positioning & js adaptation.
+* 22th September 2017: v 0.3.8. Consistent "logout" into the list.
 * 24th August 2017: v 0.3.7. Adds a link to the TXP community Forum. Improvements.
 * 18th July 2017: v 0.3.6. Adds a preference radio button to disable this plugin.
 * 17th July 2017: v 0.3.5. Removes a strong tag into the "Article" link. CSS improvements.
