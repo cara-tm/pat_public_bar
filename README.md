@@ -35,6 +35,8 @@ Into your page templates where to show this bar on your website (public side) on
 
     <pat::public_bar />
 
+The access bar within your public website can appear below the top of the browser window. It is due to your specifical visual website design, but you have an attribute named @js_top_adjust@ to push the bar at a better place (see below).
+
 Notice: due to the support of multi-site installation the bar only disappear when the client's browser is closed.
 
 ## Attributes for designers
@@ -42,7 +44,7 @@ Notice: due to the support of multi-site installation the bar only disappear whe
 These attributes allow you to customize the entire appearance of the public bar:
 
 * `position` string (optional): CSS position of the bar. Set to `absolute` is better for small screens support. Default: `fixed`.
-* `js_top_adjust` string (optional - v 0.3.7 onward): adjusts the top position value in mobile context (depending of the website template, the value injected by javascript pushes the bar outside the viewport). Default `-45` (for `top: -45px`).
+* `js_top_adjust` string (optional - v 0.3.7 onward): adjusts the top position value - unit have to be specified: e.g. -35px - (depending of the website template, the value injected by javascript pushes the bar outside the viewport). Default `0` (for `top: 0`).
 * `bgcolor` string (optional): change the background color of the bar. Default: `#23282d`.
 * `color` string (optional): change the font color into the bar. Default: `#fff`.
 * `title` string (optional): change the color of the different parts title. Default: `#84878b`.
@@ -51,6 +53,8 @@ These attributes allow you to customize the entire appearance of the public bar:
 
 # Changelog
 
+* 31th January 2018: v 0.5. Use of ahu, thanks jools-r.
+* 22sd November 2017: v 0.4.1.
 * 10th October 2017: v 0.4.0. Better support for small screens.
 * 25th September 2017: v 0.3.9. Better positioning & js adaptation.
 * 22th September 2017: v 0.3.8. Consistent "logout" into the list.
